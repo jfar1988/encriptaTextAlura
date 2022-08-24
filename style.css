@@ -197,47 +197,48 @@ header img {
     .input-texto {
         left: 65px;
         width: 75%;
+        top: 100px;
     }
-
+    
+    .advertencia {
+        left: 65px;
+        top: 150px;
+        width: 300px;
+    }
     .encriptar {
         left: 65px;
-        top: 250px;
+        top: 200px;
         width: 280px;
     }
 
     .btnDesencriptar {
         position: absolute;
         left: 65px;
-        top: 340px;
+        top: 290px;
         width: 280px;
     }
-
-    .advertencia {
-        left: 65px;
-        top: 200px;
-        width: 300px;
-    }
-
     .mensaje {
-        top: 443px;
+        top: 393px;
         left: 65px;
         width: 75%;
+        height: 40%;
     }
 
     .copiar {
         left: 90px;
-        top: 990px
+        top: 760px
     }
 
     #textoAyuda {
         left: 68px;
-        top: 790px;
+        top: 640px;
         width: 75%;
     }
 
     header img {
         position: absolute;
-        margin: 60px;
+        margin: 0 60px;
+        
     }
 }
 
