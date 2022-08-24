@@ -1,0 +1,290 @@
+body {
+    background: #E5E5E5;
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+header img {
+    position: absolute;
+    margin: 50px;
+}
+
+.input-texto {
+    position: absolute;
+    width: 680px;
+    height: 48px;
+    left: 240px;
+    top: 140px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+.advertencia {
+    position: absolute;
+    width: 577px;
+    left: 240px;
+    top: 440px;
+}
+
+.advertencia p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.encriptar {
+    position: absolute;
+    left: 240px;
+    top: 500px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+
+    color: #D8DFE8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid;
+    cursor: pointer;
+
+}
+
+.encriptar:hover {
+    background: #D8DFE8;
+    color: #0A3871;
+}
+
+.btnDesencriptar {
+    position: absolute;
+    left: 590px;
+    top: 500px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border-radius: 24px;
+
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.btnDesencriptar:hover {
+    color: #D8DFE8;
+    background: #0A3871;
+}
+
+.mensaje {
+    position: absolute;
+    width: 300px;
+    height: 520px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    /* imagen */
+    background-image: url("./img/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 250px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: xx-large;
+
+}
+
+
+.copiar {
+    position: absolute;
+    left: 1045px;
+    top: 510px;
+    width: 228px;
+    height: 47px;
+    background: #D8DFE8;
+    border-radius: 24px;
+
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.copiar:hover {
+    color: #D8DFE8;
+    background: #0A3871;
+}
+
+#textoAyuda {
+    position: absolute;
+    width: 300px;
+    left: 1000px;
+    top: 390px;
+    text-align: center;
+    font-weight: bold;
+    color: #0A3871;
+    font-size: x-large;
+}
+
+#textoAyuda .principal {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /* or 29px */
+
+    text-align: center;
+
+    /* Gray/gray-500 */
+
+    color: #343A40;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#textoAyuda .secundario {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+@media (min-width:280px) and (max-width:768px) {
+    .input-texto {
+        left: 65px;
+        width: 75%;
+    }
+
+    .encriptar {
+        left: 65px;
+        top: 250px;
+        width: 280px;
+    }
+
+    .btnDesencriptar {
+        position: absolute;
+        left: 65px;
+        top: 340px;
+        width: 280px;
+    }
+
+    .advertencia {
+        left: 65px;
+        top: 200px;
+        width: 300px;
+    }
+
+    .mensaje {
+        top: 443px;
+        left: 65px;
+        width: 75%;
+    }
+
+    .copiar {
+        left: 90px;
+        top: 990px
+    }
+
+    #textoAyuda {
+        left: 68px;
+        top: 790px;
+        width: 75%;
+    }
+
+    header img {
+        position: absolute;
+        margin: 60px;
+    }
+}
+
+@media (min-width:768px) and (max-width:920px) {
+    .input-texto {
+        left: 20px;
+        width: 90%;
+    }
+
+    .encriptar {
+        left: 20px;
+        top: 250px;
+    }
+
+    .btnDesencriptar {
+        position: absolute;
+        left: 440px;
+        top: 250px;
+
+    }
+
+    .advertencia {
+        left: 20px;
+        top: 200px;
+    }
+
+    .mensaje {
+        top: 353px;
+        left: 20px;
+        width: 100%;
+        background-position: 270px;
+        background-size: 270px;
+    }
+
+    .copiar {
+        left: 320px;
+        top: 820px
+    }
+
+    #textoAyuda {
+        left: 115px;
+        top: 700px;
+    }
+
+    header img {
+        position: absolute;
+        margin: 10px;
+    }
+
+}
